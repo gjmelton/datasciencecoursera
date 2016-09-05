@@ -1,7 +1,95 @@
 <h2>CodeBook for run_analysis.R</h2>
 The contents of this file lists the identifiers, the measures and finally a table of descriptions for the activities
 
-<h3>Identifiers</h3>
-  <li>activity
-  <li>subject
+<h3>DataSet Identifiers Columns</h3>
+<li>activity
+<li>subject
 
+<h3>DataSet Measures Columns</h3>
+<li>tbodyaccMeanx
+<li>tbodyaccMeany               
+<li>tbodyaccMeanz
+<li>tbodyaccStdx
+<li>tbodyaccStdy
+<li>tbodyaccStdz                
+<li>tgravityaccMeanx
+<li>tgravityaccMeany
+<li>tgravityaccMeanz
+<li>tgravityaccStdx             
+<li>tgravityaccStdy
+<li>tgravityaccStdz
+<li>tbodyaccjerkMeanx
+<li>tbodyaccjerkMeany           
+<li>tbodyaccjerkMeanz
+<li>tbodyaccjerkStdx
+<li>tbodyaccjerkStdy
+<li>tbodyaccjerkStdz            
+<li>tbodygyroMeanx
+<li>tbodygyroMeany
+<li>tbodygyroMeanz
+<li>tbodygyroStdx               
+<li>tbodygyroStdy
+<li>tbodygyroStdz
+<li>tbodygyrojerkMeanx
+<li>tbodygyrojerkMeany          
+<li>tbodygyrojerkMeanz
+<li>tbodygyrojerkStdx
+<li>tbodygyrojerkStdy
+<li>tbodygyrojerkStdz           
+<li>tbodyaccmagMean
+<li>tbodyaccmagStd
+<li>tgravityaccmagMean
+<li>tgravityaccmagStd           
+<li>tbodyaccjerkmagMean
+<li>tbodyaccjerkmagStd
+<li>tbodygyromagMean
+<li>tbodygyromagStd             
+<li>tbodygyrojerkmagMean
+<li>tbodygyrojerkmagStd
+<li>fbodyaccMeanx
+<li>fbodyaccMeany               
+<li>fbodyaccMeanz
+<li>fbodyaccStdx
+<li>fbodyaccStdy
+<li>fbodyaccStdz                
+<li>fbodyaccMeanfreqx
+<li>fbodyaccMeanfreqy
+<li>fbodyaccMeanfreqz
+<li>fbodyaccjerkMeanx           
+<li>fbodyaccjerkMeany
+<li>fbodyaccjerkMeanz
+<li>fbodyaccjerkStdx
+<li>fbodyaccjerkStdy            
+<li>fbodyaccjerkStdz
+<li>fbodyaccjerkMeanfreqx
+<li>fbodyaccjerkMeanfreqy
+<li>fbodyaccjerkMeanfreqz
+<li>fbodygyroMeanx
+<li>fbodygyroMeany
+<li>fbodygyroMeanz
+<li>fbodygyroStdx               
+<li>fbodygyroStdy
+<li>fbodygyroStdz
+<li>fbodygyroMeanfreqx
+<li>fbodygyroMeanfreqy          
+<li>fbodygyroMeanfreqz
+<li>fbodyaccmagMean
+<li>fbodyaccmagStd
+<li>fbodyaccmagMeanfreq         
+<li>fbodybodyaccjerkmagMean
+<li>fbodybodyaccjerkmagStd
+<li>fbodybodyaccjerkmagMeanfreq
+<li>fbodybodygyromagMean        
+<li>fbodybodygyromagStd
+<li>fbodybodygyromagMeanfreq
+<li>fbodybodygyrojerkmagMean
+<li>fbodybodygyrojerkmagStd     
+<li>fbodybodygyrojerkmagMeanfreq
+
+<h3>DataSet Activity Labels</h3>
+<li>WALKING
+<li>WALKING_UPSTAIRS
+<li>WALKING_DOWNSTAIRS
+<li>SITTING
+<li>STANDING
+<li>LAYING
