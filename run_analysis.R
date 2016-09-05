@@ -63,11 +63,12 @@ colnames(completeDf) <- c("activity", "subject", features_desired)
 ## insure columns to melt are factors
 completeDf$activity <- factor(completeDf$activity, levels = activity_type[, 1], labels = activity_type[, 2])
 completeDf$subject <- as.factor(completeDf$subject)
-## melt all columns except activity and subject and create a very "long" dataset
+## melt all columns except identifiers activity and subject and create a very "long" vertical dataset
 completeDf_melted <- melt(completeDf, id = c("activity", "subject"))
 ## calculate the mean of all the "variable" data and extract back to original model format
 completeDf_mean <- dcast(completeDf_melted, activity + subject ~ variable, mean)
 
 ## generate the tidy dataset grouped by the appropriate columns	
 tidyDf <- completeDf_mean %>% arrange(activity, subject) %>% group_by(activity, subject)
-
+## create the tidy data set text file
+write.table(tidyDf, file = "tidyDf.txt", row.names = FALSE)
