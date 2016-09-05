@@ -1,5 +1,5 @@
-<h1>Coursera Data Science Specialization
-<h2>Getting and Cleaning Data -> Course Programming Assignment
+<h1>Coursera Data Science Specialization</h1
+<h2>Getting and Cleaning Data -> Course Programming Assignment</h2>
 
 The assignment for Getting and Cleaning Data Coursera course 3 of the Data Science Specialization generates 3 files
 <li>This Readme file
