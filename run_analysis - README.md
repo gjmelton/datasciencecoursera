@@ -1,11 +1,12 @@
-<h1>Coursera Data Science Specialization</h1
+<h1>Coursera Data Science Specialization</h1>
 <h2>Getting and Cleaning Data -> Course Programming Assignment</h2>
 
-The assignment for Getting and Cleaning Data Coursera course 3 of the Data Science Specialization generates 3 files
-<li>This Readme file
-<li>The Codebook decribes DataSet Identifiers (keys), measures and a lookup DataSet
-<li>run_analysis.R, R Script executes the following:
+The assignment for Getting and Cleaning Data Coursera course 3 of the Data Science Specialization generates 3 files:
+  <li>This Readme file
+  <li>The Codebook decribes DataSet Identifiers (keys), measures and a lookup DataSet
+  <li>run_analysis.R, R Script executes the following:
 
+<h4>
 Download the zip file containing the datasets if it doesn't already exist
 Extracts all files from the zip file if not already done
 Load feature and activity text files into R data frames and insure proper data typing
@@ -17,3 +18,4 @@ Transforms activity and subject columns as factors in preparation for a melt ope
 Uses Reshape2 function melt to split out identifiers and measures into a "long" vertical data frame
 Creates a "tidy" dataset containing "mean" of each measure (variable) by activity-subject identifier candidate key group
 dplyr chaining functionality generates the tidytDf data frame in the last step
+</h4>
